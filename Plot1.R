@@ -38,7 +38,7 @@ data$Sub_metering_3 = as.numeric(data$Sub_metering_3)
 
 ## Plotting the Graphs and saving to png file
 
-## NOTE: Tries plotting with transparent backgrond (bg="transparent" in png command).
+## NOTE: Tried plotting with transparent backgrond (bg="transparent" in png command).
 ## However, the results were still displayed as white background. As per documentation
 ## based on ?png, noted that not all PNG viewers render files with transpernacy correctly.
 ## Hence plotted with default(white) background. This also ensures better readability
